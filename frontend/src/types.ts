@@ -1,4 +1,4 @@
-// Mirrors common.make_event() in the Python backend.
+// Mirrors makeEvent() in the Express backend (src/types.ts).
 export type Cost = 'free' | 'donation' | 'paid'
 
 export interface NycEvent {

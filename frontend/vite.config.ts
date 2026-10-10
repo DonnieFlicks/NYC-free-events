@@ -4,7 +4,7 @@ import { defineConfig } from 'vitest/config'
 export default defineConfig({
   plugins: [react()],
   server: {
-    // In development, Vite serves the page and forwards API calls to FastAPI.
+    // In development, Vite serves the page and forwards API calls to the Express backend.
     proxy: { '/api': 'http://127.0.0.1:8000' },
   },
 })
