@@ -1,0 +1,11 @@
+# Backend (Node) dependencies and logs
+node_modules
+*.log
+
+# Python leftovers (backend was ported to Express)
+__pycache__
+.pytest_cache
+*.pyc
+
+# Claude Code internal worktrees
+.claude/
